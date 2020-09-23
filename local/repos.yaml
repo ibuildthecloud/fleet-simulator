@@ -7,6 +7,8 @@ spec:
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
   - runners
+  targets:
+  - clusterSelector: {}
 
 ---
 kind: GitRepo
@@ -18,3 +20,5 @@ spec:
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
   - clusters
+  targets:
+  - clusterSelector: {}
