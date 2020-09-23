@@ -2,10 +2,10 @@ kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   name: simulator
-  namespace: simulator
+  namespace: simulator-runners
 spec:
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
   - simulator
-  targets:
+  target:
   - clusterSelector: {}

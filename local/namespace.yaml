@@ -1,4 +1,10 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: simulator
+  name: simulator-runners
+
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: simulator-clusters

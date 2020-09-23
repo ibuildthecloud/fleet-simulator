@@ -2,4 +2,4 @@ kind: ClusterRegistrationToken
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   name: token
-  namespace: simulator
+  namespace: simulator-clusters

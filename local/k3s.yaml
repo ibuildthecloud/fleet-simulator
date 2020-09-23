@@ -2,7 +2,7 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: host1
-  namespace: simulator
+  namespace: simulator-runners
 
 ---
 kind: Cluster
@@ -11,4 +11,4 @@ metadata:
   name: host1
   namespace: simulator
 spec:
-  kubeConfigSecret: host1-kubeconfig
+  kubeConfigSecret: simulator-runners
