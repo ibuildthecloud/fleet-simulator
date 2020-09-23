@@ -1,0 +1,6 @@
+namespace: fleet-simulator
+helm:
+  chart: github.com/ibuildthecloud/fleet//charts/fleet-simulator
+  values:
+    image:
+      repository: ibuildthecloud/fleet-agent
