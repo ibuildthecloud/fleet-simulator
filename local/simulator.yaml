@@ -7,3 +7,5 @@ spec:
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
   - simulator
+  targets:
+  - clusterSelector: {}
