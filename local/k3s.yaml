@@ -11,4 +11,4 @@ metadata:
   name: host1
   namespace: simulator-runners
 spec:
-  kubeConfigSecret: simulator-runners
+  kubeConfigSecret: host1-kubeconfig
