@@ -9,6 +9,6 @@ kind: Cluster
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   name: host1
-  namespace: simulator
+  namespace: simulator-runners
 spec:
   kubeConfigSecret: simulator-runners
