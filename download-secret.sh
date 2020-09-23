@@ -12,10 +12,10 @@ spec:
         kind: Secret
         apiVersion: v1
         metadata:
-        name: fleet-agent-bootstrap
-        namespace: fleet-simulator
+          name: fleet-agent-bootstrap
+          namespace: fleet-simulator
         data:
-        values: "$(kubectl -n simulator-clusters get secret token -o 'jsonpath={.data.values}')"
+          values: "$(kubectl -n simulator-clusters get secret token -o 'jsonpath={.data.values}')"
   targets:
   - clusterSelector: {}
 EOF
