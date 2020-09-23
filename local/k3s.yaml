@@ -1,0 +1,14 @@
+kind: K3s
+apiVersion: k3s.ibtc.io/v1
+metadata:
+  name: host1
+  namespace: simulator-runners
+
+---
+kind: Cluster
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: host1
+  namespace: simulator-runners
+spec:
+  kubeConfigSecret: simulator-runners
