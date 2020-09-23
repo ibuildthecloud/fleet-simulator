@@ -1,0 +1,20 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: runners
+  namespace: simulator-runners
+spec:
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - runners
+
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: clusters
+  namespace: simulator-clusters
+spec:
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - clusters
