@@ -4,4 +4,4 @@ metadata:
   name: all-simulated-clusters
   namespace: simulator-clusters
 spec:
-  clusterSelector: {}
+  selector: {}
