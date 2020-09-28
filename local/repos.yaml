@@ -10,15 +10,15 @@ spec:
   targets:
   - clusterSelector: {}
 
-    #---
-    #kind: GitRepo
-    #apiVersion: fleet.cattle.io/v1alpha1
-    #metadata:
-    #  name: clusters
-    #  namespace: simulator-clusters
-    #spec:
-    #  repo: https://github.com/ibuildthecloud/fleet-simulator
-    #  paths:
-    #  - clusters
-    #  targets:
-    #  - clusterSelector: {}
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: clusters
+  namespace: simulator-clusters
+spec:
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - clusters
+  targets:
+  - clusterSelector: {}
