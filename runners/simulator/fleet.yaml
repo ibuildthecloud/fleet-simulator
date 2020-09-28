@@ -4,4 +4,4 @@ helm:
   values:
     image:
       repository: ibuildthecloud/fleet-agent
-    simulators: 10000
+    simulators: 5000
