@@ -1,6 +1,14 @@
 #!/bin/bash
 
 kubectl apply -f - << EOF
+kind: ClusterRegistrationToken
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: token
+  namespace: simulator-clusters
+EOF
+
+kubectl apply -f - << EOF
 kind: Bundle
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
@@ -18,6 +26,14 @@ spec:
           values: "$(kubectl -n simulator-clusters get secret token -o 'jsonpath={.data.values}')"
   targets:
   - clusterSelector: {}
+EOF
+
+kubectl apply -f - << EOF
+kind: ClusterRegistrationToken
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: token
+  namespace: fleet-default
 EOF
 
 kubectl apply -f - << EOF

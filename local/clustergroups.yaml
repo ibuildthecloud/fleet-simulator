@@ -5,3 +5,12 @@ metadata:
   namespace: simulator-clusters
 spec:
   selector: {}
+
+---
+kind: ClusterGroup
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: all-default-clusters
+  namespace: fleet-default
+spec:
+  selector: {}
