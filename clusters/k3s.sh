@@ -2,7 +2,7 @@
 
 >k3s.yaml
 
-for i in $(seq 0 100); do
+for i in $(seq 0 10); do
     cat >> k3s.yaml << EOF
 ---
 kind: K3s
@@ -12,7 +12,7 @@ metadata:
 
 ---
 kind: Cluster
-apiVersion: rancher.cattle.io/v1alpha1
+apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-$i
   labels:
