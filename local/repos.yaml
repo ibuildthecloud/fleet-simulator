@@ -23,15 +23,15 @@ spec:
   targets:
   - clusterSelector: {}
 
----
-kind: GitRepo
-apiVersion: fleet.cattle.io/v1alpha1
-metadata:
-  name: default-runners
-  namespace: fleet-default
-spec:
-  repo: https://github.com/ibuildthecloud/fleet-simulator
-  paths:
-  - runners
-  targets:
-  - clusterSelector: {}
+    #---
+    #kind: GitRepo
+    #apiVersion: fleet.cattle.io/v1alpha1
+    #metadata:
+    #  name: default-runners
+    #  namespace: fleet-default
+    #spec:
+    #  repo: https://github.com/ibuildthecloud/fleet-simulator
+    #  paths:
+    #  - runners
+    #  targets:
+    #  - clusterSelector: {}
