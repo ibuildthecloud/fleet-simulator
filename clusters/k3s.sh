@@ -4,6 +4,7 @@
 
 for i in $(seq 0 100); do
     cat >> k3s.yaml << EOF
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:

@@ -1,3 +1,4 @@
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -13,6 +14,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-0-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -28,6 +30,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-1-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -43,6 +46,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-2-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -58,6 +62,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-3-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -73,6 +78,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-4-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -88,6 +94,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-5-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -103,6 +110,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-6-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -118,6 +126,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-7-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -133,6 +142,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-8-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -148,6 +158,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-9-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -163,6 +174,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-10-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -178,6 +190,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-11-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -193,6 +206,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-12-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -208,6 +222,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-13-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -223,6 +238,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-14-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -238,6 +254,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-15-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -253,6 +270,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-16-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -268,6 +286,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-17-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -283,6 +302,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-18-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -298,6 +318,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-19-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -313,6 +334,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-20-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -328,6 +350,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-21-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -343,6 +366,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-22-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -358,6 +382,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-23-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -373,6 +398,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-24-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -388,6 +414,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-25-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -403,6 +430,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-26-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -418,6 +446,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-27-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -433,6 +462,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-28-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -448,6 +478,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-29-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -463,6 +494,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-30-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -478,6 +510,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-31-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -493,6 +526,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-32-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -508,6 +542,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-33-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -523,6 +558,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-34-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -538,6 +574,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-35-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -553,6 +590,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-36-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -568,6 +606,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-37-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -583,6 +622,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-38-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -598,6 +638,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-39-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -613,6 +654,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-40-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -628,6 +670,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-41-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -643,6 +686,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-42-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -658,6 +702,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-43-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -673,6 +718,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-44-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -688,6 +734,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-45-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -703,6 +750,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-46-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -718,6 +766,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-47-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -733,6 +782,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-48-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -748,6 +798,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-49-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -763,6 +814,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-50-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -778,6 +830,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-51-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -793,6 +846,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-52-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -808,6 +862,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-53-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -823,6 +878,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-54-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -838,6 +894,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-55-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -853,6 +910,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-56-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -868,6 +926,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-57-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -883,6 +942,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-58-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -898,6 +958,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-59-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -913,6 +974,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-60-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -928,6 +990,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-61-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -943,6 +1006,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-62-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -958,6 +1022,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-63-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -973,6 +1038,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-64-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -988,6 +1054,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-65-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1003,6 +1070,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-66-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1018,6 +1086,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-67-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1033,6 +1102,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-68-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1048,6 +1118,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-69-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1063,6 +1134,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-70-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1078,6 +1150,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-71-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1093,6 +1166,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-72-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1108,6 +1182,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-73-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1123,6 +1198,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-74-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1138,6 +1214,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-75-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1153,6 +1230,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-76-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1168,6 +1246,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-77-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1183,6 +1262,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-78-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1198,6 +1278,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-79-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1213,6 +1294,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-80-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1228,6 +1310,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-81-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1243,6 +1326,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-82-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1258,6 +1342,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-83-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1273,6 +1358,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-84-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1288,6 +1374,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-85-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1303,6 +1390,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-86-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1318,6 +1406,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-87-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1333,6 +1422,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-88-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1348,6 +1438,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-89-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1363,6 +1454,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-90-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1378,6 +1470,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-91-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1393,6 +1486,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-92-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1408,6 +1502,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-93-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1423,6 +1518,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-94-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1438,6 +1534,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-95-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1453,6 +1550,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-96-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1468,6 +1566,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-97-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1483,6 +1582,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-98-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
@@ -1498,6 +1598,7 @@ metadata:
 spec:
   importedConfig:
     kubeConfigSecret: simulator-99-kubeconfig
+---
 kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
