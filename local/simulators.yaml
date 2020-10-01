@@ -1,0 +1,1000 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-1
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-2
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-3
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-4
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-5
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-6
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-7
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-8
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-9
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-10
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-11
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-12
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-13
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-14
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-15
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-16
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-17
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-18
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-19
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-20
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-21
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-22
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-23
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-24
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-25
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-26
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-27
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-28
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-29
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-30
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-31
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-32
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-33
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-34
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-35
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-36
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-37
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-38
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-39
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-40
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-41
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-42
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-43
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-44
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-45
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-46
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-47
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-48
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-49
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-50
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-51
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-52
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-53
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-54
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-55
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-56
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-57
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-58
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-59
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-60
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-61
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-62
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-63
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-64
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-65
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-66
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-67
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-68
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-69
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-70
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-71
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-72
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-73
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-74
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-75
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-76
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-77
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-78
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-79
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-80
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-81
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-82
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-83
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-84
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-85
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-86
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-87
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-88
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-89
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-90
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-91
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-92
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-93
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-94
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-95
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-96
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-97
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-98
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-99
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: simulator
+  namespace: fleet-local
+spec:
+  targetNamespace: simulator-100
+  repo: https://github.com/ibuildthecloud/fleet-simulator
+  paths:
+  - simulator-workspace

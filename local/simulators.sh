@@ -5,7 +5,7 @@
 for i in \
     $(seq 100); do
 ns=simulator-$i
-cat >> simulator.yaml << EOF
+cat >> simulators.yaml << EOF
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
