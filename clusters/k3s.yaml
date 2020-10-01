@@ -3,12 +3,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-1
+  namespace: fleet-default
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-1
+  namespace: fleet-default
   labels:
     workspace: workspace-1
 spec:
@@ -19,12 +21,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-2
+  namespace: fleet-default
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-2
+  namespace: fleet-default
   labels:
     workspace: workspace-2
 spec:

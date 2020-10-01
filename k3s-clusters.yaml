@@ -4,6 +4,7 @@ metadata:
   name: simulator-clusters
   namespace: fleet-local
 spec:
+  targetNamespace: fleet-default
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
   - clusters
