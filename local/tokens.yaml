@@ -78,7 +78,7 @@ spec:
     metadata:
       labels:
         app: token-script
-        generation: 1
+        generation: "1"
     spec:
       serviceAccount: token-script
       volumes:
