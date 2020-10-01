@@ -3,7 +3,7 @@
 >simulators.yaml
 
 for workspace in $(seq -f '%05g' 1 50); do
-    for count in $(seq 0 49); do
+    for count in $(seq 0 20); do
         cat >> simulators.yaml << EOF
 ---
 kind: GitRepo
