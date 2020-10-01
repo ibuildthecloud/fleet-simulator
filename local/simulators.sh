@@ -12,6 +12,7 @@ metadata:
   name: simulator-${workspace}-${count}
   namespace: fleet-local
 spec:
+  targetNamespace: simulator-${workspace}-${count}
   name: simulator-${workspace}-${count}
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
