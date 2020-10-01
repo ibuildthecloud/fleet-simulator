@@ -2,7 +2,7 @@
 
 >k3s.yaml
 
-for i in $(seq 0 10); do
+for i in $(seq 1 2); do
     cat >> k3s.yaml << EOF
 ---
 kind: K3s

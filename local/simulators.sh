@@ -3,7 +3,7 @@
 >simulators.yaml
 
 for i in \
-    $(seq 2); do
+    $(seq 1 2); do
 ns=simulator-$i
 cat >> simulators.yaml << EOF
 ---
