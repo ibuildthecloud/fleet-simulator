@@ -4,6 +4,18 @@ metadata:
   name: simulator-clusters
   namespace: fleet-local
 spec:
+  targetNamespace: fleet-default
   repo: https://github.com/ibuildthecloud/fleet-simulator
   paths:
   - clusters
+
+---
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: k3s-operator
+  namespace: fleet-local
+spec:
+  repo: https://github.com/ibuildthecloud/k3s-operator
+  paths:
+  - charts/k3s-operator
