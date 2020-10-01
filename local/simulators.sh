@@ -10,7 +10,7 @@ cat >> simulators.yaml << EOF
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
-  name: simulator
+  name: simulator-$i
   namespace: fleet-local
 spec:
   targetNamespace: $ns
