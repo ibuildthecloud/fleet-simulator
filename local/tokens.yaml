@@ -12,6 +12,7 @@ data:
             workspace=$(printf "%05d" "$(echo $ns | cut -f2 -d-)")
             count=$(echo $ns | cut -f3 -d-)
             if ! kubectl -n $ns get secret token -o 'jsonpath={.data.values}'; then
+              echo Missing token for $ns
               continue
             fi
             kubectl apply -f - << EOF
@@ -78,7 +79,7 @@ spec:
     metadata:
       labels:
         app: token-script
-        generation: "1"
+        generation: "2"
     spec:
       serviceAccount: token-script
       volumes:
