@@ -11,7 +11,10 @@ data:
         for ns in $(kubectl get ns -o 'custom-columns=NAME:.metadata.name' | grep '^simulator-'); do
             workspace=$(printf "%05d" "$(echo $ns | cut -f2 -d-)")
             count=$(echo $ns | cut -f3 -d-)
-    kubectl apply -f - << EOF
+            if ! kubectl -n $ns get secret token -o 'jsonpath={.data.values}'; then
+              continue
+            fi
+            kubectl apply -f - << EOF
     kind: Bundle
     apiVersion: fleet.cattle.io/v1alpha1
     metadata:
@@ -30,8 +33,8 @@ data:
       targets:
       - clusterSelector:
           matchLabels:
-            workspace: workspace-$workspace
-            count: $count
+            workspace: "workspace-$workspace"
+            count: "$count"
     EOF
         done
 
