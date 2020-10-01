@@ -1,4 +1,4 @@
-namespace: fleet-simulator
+defaultNamespace: fleet-simulator
 helm:
   chart: github.com/ibuildthecloud/fleet//charts/fleet-simulator
   values:
