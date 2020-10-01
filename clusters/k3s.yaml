@@ -3,12 +3,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-0
+  namespace: simulator-0
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-0
+  namespace: simulator-0
   labels:
     workspace: workspace-0
 spec:
@@ -19,12 +21,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-1
+  namespace: simulator-1
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-1
+  namespace: simulator-1
   labels:
     workspace: workspace-1
 spec:
@@ -35,12 +39,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-2
+  namespace: simulator-2
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-2
+  namespace: simulator-2
   labels:
     workspace: workspace-2
 spec:
@@ -51,12 +57,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-3
+  namespace: simulator-3
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-3
+  namespace: simulator-3
   labels:
     workspace: workspace-3
 spec:
@@ -67,12 +75,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-4
+  namespace: simulator-4
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-4
+  namespace: simulator-4
   labels:
     workspace: workspace-4
 spec:
@@ -83,12 +93,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-5
+  namespace: simulator-5
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-5
+  namespace: simulator-5
   labels:
     workspace: workspace-5
 spec:
@@ -99,12 +111,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-6
+  namespace: simulator-6
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-6
+  namespace: simulator-6
   labels:
     workspace: workspace-6
 spec:
@@ -115,12 +129,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-7
+  namespace: simulator-7
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-7
+  namespace: simulator-7
   labels:
     workspace: workspace-7
 spec:
@@ -131,12 +147,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-8
+  namespace: simulator-8
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-8
+  namespace: simulator-8
   labels:
     workspace: workspace-8
 spec:
@@ -147,12 +165,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-9
+  namespace: simulator-9
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-9
+  namespace: simulator-9
   labels:
     workspace: workspace-9
 spec:
@@ -163,12 +183,14 @@ kind: K3s
 apiVersion: k3s.ibtc.io/v1
 metadata:
   name: simulator-10
+  namespace: simulator-10
 
 ---
 kind: Cluster
 apiVersion: rancher.cattle.io/v1
 metadata:
   name: simulator-10
+  namespace: simulator-10
   labels:
     workspace: workspace-10
 spec:
