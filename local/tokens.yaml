@@ -1,0 +1,92 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: token-script
+  namespace: fleet-default
+data:
+  run.sh: |-
+    #!/bin/sh
+
+    while true; do
+        for ns in $(kubectl get ns -o 'custom-columns=NAME:.metadata.name' | grep '^simulator-'); do
+            workspace=$(printf "%05d" "$(echo $ns | cut -f2 -d-)")
+            count=$(echo $ns | cut -f3 -d-)
+    kubectl apply -f - << EOF
+    kind: Bundle
+    apiVersion: fleet.cattle.io/v1alpha1
+    metadata:
+        name: simulator-$workspace-$count
+        namespace: fleet-default
+    spec:
+      resources:
+      - content: |
+            kind: Secret
+            apiVersion: v1
+            metadata:
+              name: fleet-agent-bootstrap
+              namespace: fleet-simulator
+            data:
+              values: "$(kubectl -n $ns get secret token -o 'jsonpath={.data.values}')"
+      targets:
+      - clusterSelector:
+          matchLabels:
+            workspace: workspace-$workspace
+            count: $count
+    EOF
+        done
+
+        sleep 15
+    done
+
+---
+
+kind: ServiceAccount
+apiVersion: v1
+metadata:
+  name: token-script
+  namespace: fleet-default
+
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: token-script
+  namespace: fleet-default
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: token-script
+  namespace: fleet-default
+
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: token-script
+  namespace: fleet-default
+spec:
+  selector:
+    matchLabels:
+      app: token-script
+  template:
+    metadata:
+      labels:
+        app: token-script
+    spec:
+      serviceAccount: token-script
+      volumes:
+      - name: token-script
+        configMap:
+          name: token-script
+          defaultMode: 0777
+      containers:
+      - name: script
+        image: rancher/k3s:v1.18.9-k3s1
+        command:
+        - "/run/script/run.sh"
+        volumeMounts:
+        - mountPath: /run/script
+          name: token-script
