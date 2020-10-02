@@ -9,7 +9,7 @@ for workspace in $(seq -f '%05g' 1 50); do
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
-  name: simulator-${workspace}-${count}
+  name: simulator-content-${workspace}-${count}
   namespace: fleet-local
 spec:
   targetNamespace: simulator-${workspace}-${count}
