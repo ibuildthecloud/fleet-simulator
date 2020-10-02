@@ -1,6 +1,0 @@
-kind: ClusterGroup
-apiVersion: fleet.cattle.io/v1alpha1
-metadata:
-  name: all-simulators
-spec:
-  selector: {}

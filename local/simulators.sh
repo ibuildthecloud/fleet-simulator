@@ -14,9 +14,9 @@ metadata:
 spec:
   targetNamespace: simulator-${workspace}-${count}
   name: simulator-${workspace}-${count}
-  repo: https://github.com/ibuildthecloud/fleet-simulator
+  repo: https://github.com/ibuildthecloud/fleet-simulator-content
   paths:
-  - simulator-workspace
+  - workspace
 EOF
     done
 done
